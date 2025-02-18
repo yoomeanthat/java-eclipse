@@ -35,6 +35,7 @@ public class 리터럴 {
 		//2. double형 데이터 -> float형 변수에 저장되는 문제발생 ( 데이터 손실)
 		
 		float f = 35.4f;
+		System.out.println(f);
 		
 		//float형 리터럴로 저장하고 싶다면 값 뒤에 f, F 붙여야 함
 	}
