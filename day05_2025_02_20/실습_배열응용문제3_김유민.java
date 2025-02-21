@@ -12,12 +12,12 @@ public class 실습_배열응용문제3_김유민 {
 	        System.out.println("수를 입력하세요: ");
 	        int number = sc.nextInt();
 	        
-	        System.out.println(number + "의 약수는:");
+	        System.out.print(number + "의 약수는:");
 
 	        // 약수 구하기
 	        for (int i = 1; i <= number; i++) {
 	            if (number % i == 0) {
-	                System.out.println(i + " "); // 약수 출력
+	                System.out.print(i + " "); // 약수 출력
 	            }
 	        }
 	        

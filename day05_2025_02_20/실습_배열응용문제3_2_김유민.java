@@ -27,7 +27,7 @@ public class 실습_배열응용문제3_2_김유민 {
         
         System.out.println(number + "의 약수는:");
         for(int i=0; i<count;i++) {
-        	System.out.println(divisor[i]+" ");
+        	System.out.print(divisor[i]+" ");
         }
 
 	}
