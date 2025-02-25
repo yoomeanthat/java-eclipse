@@ -1,4 +1,4 @@
-package day05;
+package day05_2025_02_20;
 
 public class 짝수배열문제 {
 

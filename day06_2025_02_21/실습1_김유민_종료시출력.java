@@ -25,7 +25,8 @@ public class 실습1_김유민_종료시출력 {
 			
 			//
 			switch(menu){
-					
+				
+				//사원당 출장비 화폐 출력
 				case 1:
 					sc.nextLine();
 					System.out.println("사원명을 입력하시오:");
@@ -47,6 +48,8 @@ public class 실습1_김유민_종료시출력 {
 			        
 					
 					break;
+					
+				//종료시 화폐당 총합	출력
 				case 2:
 					System.out.println("종료하시겠습니까(stop 입력 시 종료)");
 					String input = sc.next();
@@ -57,6 +60,7 @@ public class 실습1_김유민_종료시출력 {
 					
 			}
 		}
+	
 		for( int i=0;i<money.length;i++) {
 			System.out.println(money[i]+"원"+index[i]);
 		}

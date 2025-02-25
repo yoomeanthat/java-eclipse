@@ -1,4 +1,4 @@
-package day06;
+package day06_2025_02_21;
 
 public class 약수구하기1 {
 
