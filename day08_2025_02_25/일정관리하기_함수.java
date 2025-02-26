@@ -13,14 +13,16 @@ public class 일정관리하기_함수 {
 		//등록하기
 		등록하기();
 		등록하기();
+		등록하기();
+		등록하기();
 		//조회하기
 		조회하기();
 		//변경하기
 		변경하기();
-		조회하기();
+		
 		//삭제하기
 		삭제하기();
-		조회하기();
+		
 	}
 	
 	
@@ -42,7 +44,7 @@ public class 일정관리하기_함수 {
 	
 	public static void 삭제하기() {
 		
-		조회하기();
+		
 		
 		System.out.println("삭제할 일정을 선택하시오");
 		int deleteindex = sc.nextInt();
@@ -56,12 +58,13 @@ public class 일정관리하기_함수 {
 		}
 		index--;
 		
-		
+		조회하기();
 	}
 	
 	public static void 변경하기() {
 		
-		조회하기();
+		
+		
 		System.out.println("변경 일정을 선택하시오");
 		int index = sc.nextInt();
 		index = index-1;	//1 -> 0 인덱스 변경
@@ -71,6 +74,7 @@ public class 일정관리하기_함수 {
 		
 		schedule[index]=temp;
 		
+		조회하기();
 	}
 
 }
