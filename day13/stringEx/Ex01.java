@@ -1,4 +1,4 @@
-package stringEx;
+package day13.stringEx;
 
 public class Ex01 {
 

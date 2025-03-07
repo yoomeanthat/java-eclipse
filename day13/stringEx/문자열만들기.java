@@ -1,4 +1,4 @@
-package stringEx;
+package day13.stringEx;
 
 public class 문자열만들기 {
 
