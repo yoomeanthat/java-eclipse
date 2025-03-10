@@ -8,6 +8,7 @@ public class Score implements MyComparable {
 	
 	public Score() {
 	}
+	
 	public Score(String name, int kor, int eng) {
 		this.name = name;
 		this.kor = kor;
