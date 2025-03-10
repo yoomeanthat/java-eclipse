@@ -11,9 +11,9 @@ public class 실습_예외4 {
 		
 		
 		try {
-		
+			
 			A a = new A();
-		
+			
 			Object o  = a;   // 업캐스팅  ,  부모형만큼만 해석되어짐, 놀기() 매서드 사용 불가 
 			
 			

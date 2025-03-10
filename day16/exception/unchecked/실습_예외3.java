@@ -19,6 +19,9 @@ public class 실습_예외3 {
 		((A)o).놀기();
 		
 		
+//		B b = new B();
+//		
+//		Object o1 = b;
 		
 		//잘못된 다운캐스팅 
 		// runtime exception  발생
