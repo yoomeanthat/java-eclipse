@@ -14,7 +14,7 @@ public class BufferedWriterSaveCustomer {
         studentScores.add(new Customer("박길동", 32));
         studentScores.add(new Customer("최길동", 25));
         studentScores.add(new Customer("홍길동", 29));
-    
+
 
         // 파일에 저장할 경로
         String filePath = "res/customerList.txt";
