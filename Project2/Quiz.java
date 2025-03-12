@@ -1,6 +1,6 @@
-package project;
+package Project2;
 
-public class Quiz {
+class Quiz {
     private String question;
     private String[] options;
     private String answer;
