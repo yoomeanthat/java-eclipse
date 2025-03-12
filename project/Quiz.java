@@ -1,22 +1,34 @@
 package project;
 
-public class Quiz {
-	
-	//문제 내용
-	String content;
-	
-	//문제 답
-	String answer;
-	
-	//생성자
-	public Quiz(String content, String answer) {
-		this.content = content;
-		this.answer = answer;
-	}
-	
-	//답 확인하는 메서드
-	public boolean isCorrect(String answer) {
-		this.answer = answer;
-		return false;
-	}
+class Quiz {
+    private String question;
+    private String[] options;
+    private String answer;
+
+    public Quiz(String question, String[] options, String answer) {
+        this.question = question;
+        this.options = options;
+        this.answer = answer;
+    }
+
+    public String getQuestion() {
+        return question;
+    }
+
+    public String[] getOptions() {
+        return options;
+    }
+
+    public String getAnswer() {
+        return answer;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder optionsString = new StringBuilder();
+        for (String option : options) {
+            optionsString.append(option).append(" ");
+        }
+        return "Question: " + question + "Options: " + optionsString + "Answer: " + answer;
+    }
 }
