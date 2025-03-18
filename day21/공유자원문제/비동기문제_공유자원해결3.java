@@ -19,7 +19,7 @@ public class 비동기문제_공유자원해결3 {
 	                e.printStackTrace();
 	            }
 	            
-			
+	            
 	            synchronized (this) {  // this로 동기화
 	                index++;
 	                gIndex++;			

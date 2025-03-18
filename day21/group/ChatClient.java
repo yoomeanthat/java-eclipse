@@ -61,7 +61,7 @@ public class ChatClient extends JFrame implements Runnable, ActionListener {
 	}
 	
 	public void run() {
-		
+	
 		try {
 			Socket s = new Socket(server, 5000);
 			in = new DataInputStream(  s.getInputStream());
@@ -92,7 +92,7 @@ public class ChatClient extends JFrame implements Runnable, ActionListener {
 	}
 	
 	public static void main(String[] args) {
-		new ChatClient("192.168.0.76");
+		new ChatClient("192.168.100.40");
 	}
 	
 	
